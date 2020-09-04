@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><!-- esto no se visulaiza, solo se visualizar en el navegador el body-->
+    <meta charset="UTF-8">
+    <title>Tablas</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Tablas
+        </h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>
+                Configuraciones de tablas
+                <table 
+                    border="1" 
+                    bgColor="#1AEB72"
+                    background="https://www.crearlogogratisonline.com/images/crearlogogratis_1024x1024_01.png"
+                    borderColor="white"
+                    cellpaddin="10"
+                    width="500"
+                    height="800"
+                    >
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Edad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Diego</td>
+                            <td>Ouma</td>
+                            <td>16</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </h2>
+        </section>
+
+        <section>
+            <h2>Rowspan y el colspan</h2>
+            <table border="black">
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Duracion</th>
+                        <th>Profesor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Algoritmos</td>
+                        <td colspan="2">
+                            <center>
+                                3 meses 
+                            </center>
+                        </td>
+                        <td>Juanito</td>
+                    </tr>
+
+                    <tr>
+                        <td>Arduino</td>
+                        <td>1 mes</td>
+                        <td>Jorge Garnica</td>
+                    </tr>
+
+                    <tr>
+                        <td>Matlab</td>
+                        <td>2 mes</td>
+                        <td>Ronaldo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
