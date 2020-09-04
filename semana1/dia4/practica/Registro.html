@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Formularios</title>
+    <title>Registro</title>
 </head>
-
 <body>
 
+    <header >
+        <h1>Registrarse</h1>
+    </header>
+
+    <nav>
+        <a href="#">Registro</a>
+        <a href="./Login.html">Login</a>
+
+    </nav>
+
     <form>
+
         <table>
+
             <tr>
                 <td>
                     <label for="inputNombre">Nombre Completo:</label>
@@ -17,6 +27,18 @@
                 <td>
                     <input type="text" id="inputNombre" 
                     placeholder="Ingrese nombre"
+                    required>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="inLastName">Apellidos:</label>
+                </td>
+                <td>
+                    <input type="text" id="inLastName" 
+                    placeholder="Ingrese Apellidos"
                     required>
                 </td>
 
@@ -44,10 +66,21 @@
 
             <tr>
                 <td>
-                    <label for="inputColor">Color</label>
+                    <label>Email</label>
                 </td>
+
                 <td>
-                    <input type="color" id="inputColor">
+                    <input type="email" value="@gmail.com" placeholder="Ingrese email" id="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="inPswd">Password</label>
+                </td>
+
+                <td>
+                    <input type="password" id="inPswd">
                 </td>
             </tr>
 
@@ -62,6 +95,9 @@
 
                     <label for="inrbtnFem">F</label>
                     <input type="radio" id="inrbtnFem" name="genero">
+
+                    <label for="inrbtnOtro">Otro</label>
+                    <input type="radio" id="inrbtnOtro" name="genero">
                 </td>
             </tr>
 
@@ -85,22 +121,16 @@
 
             <tr>
                 <td>
-                    <label>Email</label>
+                    <label for="slcLang">Seleccionar Idioma</label>
                 </td>
 
                 <td>
-                    <input type="email" value="@gmail.com" placeholder="Ingrese email" id="">
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <label for="inPassword">Password</label>
-                </td>
-
-                <td>
-
-                    <input type="password" name="" id="inPassword">
+                    <select id="slcLang">
+                        <option value="">Seleccione Idioma</option>
+                        <option value="">Basico</option>
+                        <option value="">Intermedio</option>
+                        <option value="">Avanzado</option>
+                    </select>
                 </td>
             </tr>
 
@@ -111,22 +141,7 @@
 
                 <td>
 
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </td>
-            </tr>
-
-            <tr>
-                <td>
-                    <label for="slcDep">Seleccionar Departamento</label>
-                </td>
-
-                <td>
-                    <select id="slcDep">
-                        <option value="">Seleccione Departamento</option>
-                        <option value="">Arequipa</option>
-                        <option value="">Lima</option>
-                        <option value="">Tacna</option>
-                    </select>
+                    <textarea name="" id="" cols="20" rows="10"></textarea>
                 </td>
             </tr>
 
@@ -142,19 +157,17 @@
 
             <tr>
                 <td>
-                    <label>Acciones</label>
-
+                    <label for="inputColor">Color</label>
                 </td>
-                    
                 <td>
-                    <input type="submit" value="Registrarmte">
-                    <input type="reset" value="Limpiar">
+                    <input type="color" id="inputColor">
                 </td>
             </tr>
 
-            
+
+
         </table>
     </form>
+    
 </body>
-
 </html>
