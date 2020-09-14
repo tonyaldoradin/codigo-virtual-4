@@ -17,6 +17,9 @@
                 <td>
                     <input type="text" id="inputNombre" 
                     placeholder="Ingrese nombre"
+                    minlength="4"
+                    maxlength="7"
+                    pattern="[a-z]"
                     required>
                 </td>
 
@@ -27,7 +30,13 @@
                     <label for="inputEdad">Edad:</label>
                 </td>
                 <td>
-                    <input type="number" id="inputEdad" placeholder="Ingrese edad">
+                    <input type="number" 
+                    id="inputEdad" 
+                    placeholder="Ingrese edad"
+                    min="0"
+                    max="100"
+                    
+                    >
                 </td>
 
             </tr>

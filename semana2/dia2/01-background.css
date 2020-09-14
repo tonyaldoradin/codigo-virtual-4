@@ -1,0 +1,43 @@
+/* Inicializa los padding y broder de todos los elementos */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.seccion1{
+    height: 100px;
+    /* color de fondo */
+    background-color: #444;
+}
+
+.seccion2{
+    height: 200px;
+    background-image: url(https://www.publicdomainpictures.net/pictures/250000/nahled/clouds-background-005.jpg);
+
+    background-repeat: no repeat;
+
+    background-position:   center;
+    
+    background-size: cover;
+
+
+}
+
+.seccion2__titulo{
+
+    height: 200px;
+    background-color: rgba(40,40,40,0.5);
+    color: white;
+    text-align: center;
+
+}
+
+.seccion3{
+    height: 500px;
+    /* colocando una gradiente */
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #eeeeee;
+
+    /* padding: 50px 50px; */
+}
+
+.formulario1{
+
+    width: 50%;
+    align-content: center;
+    border: 2px solid black;
+}
+
+.header1{
+    
+    /* width: 100%; */
+    color: #5D46A0;
+    margin: auto auto;
+}

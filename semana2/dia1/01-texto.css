@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400&display=swap');
+
+.titulo {
+
+    /*Tipo de fuente*/
+    font-family: Arial, Helvetica, sans-serif;
+    /* Tamaño de la fuente */
+    font-size: 32px;
+    /* Groso de la fuente */
+    /* Valores entre 100 y 900 donde 900 es super negrita */
+    /* valores normal y bold */
+    font-weight: 600;
+    font-style: italic;
+}
+
+.subtitulo{
+    font: italic 900 20px Arial;
+}
+
+.parrafos__p1{
+    text-align: right;
+}
+
+.parrafos_titulo{
+    text-align: center;
+    color: white;
+    background-color: #444444;
+    letter-spacing: 8px;
+    word-spacing: 20px;
+
+    /* Fuentes importadas de google fonts */
+    /* En caso el servidor de donde se importa la fuente cae, se utiizar el sans-serif que viene por defecto en las PC */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+}
